@@ -1,4 +1,20 @@
 # Pulsebs-SAMLIdP
+
+## How to run SAML Identity provider
+
+- Clone the Repository
+- Go into your local repository folder
+- run the commands:
+    - docker-compose build
+    - docker-compose up
+
+The file with credentials is stored in /config/simplesamlphp
+
+
+
+
+
+# Original repository README 
 # Docker Test SAML 2.0 Identity Provider (IdP)
 
 [![DockerHub Pulls](https://img.shields.io/docker/pulls/kristophjunge/test-saml-idp.svg)](https://hub.docker.com/r/kristophjunge/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/kristophjunge/test-saml-idp.svg)](https://hub.docker.com/r/kristophjunge/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/kristophjunge/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/kristophjunge/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/kristophjunge/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/kristophjunge/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/kristophjunge/docker-test-saml-idp.svg)](https://github.com/kristophjunge/docker-test-saml-idp)
